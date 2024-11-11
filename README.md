@@ -10,7 +10,7 @@ systemctl restart ssh
 ## Bước 1: Cài đặt NVM
 Mở terminal và chạy lệnh sau để tải và cài đặt NVM:
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 Sau khi cài đặt, tải lại cấu hình shell để NVM có hiệu lực:
 
