@@ -1,9 +1,9 @@
 # Hướng dẫn cài vps Ovh
-sudo su -
-passwd
-nano /etc/ssh/sshd_config
+> sudo su -
+> passwd
+> nano /etc/ssh/sshd_config
 Edit PermitRootLogin yes & PasswordAuthentication yes (Lưu ctr+x y)
-systemctl restart ssh
+> systemctl restart ssh
 
 # Để cài đặt Node.js phiên bản 18.18.0 trên Ubuntu 24.04, bạn có thể sử dụng Node Version Manager (NVM), một công cụ hữu ích cho phép quản lý nhiều phiên bản Node.js trên cùng một hệ thống. Dưới đây là hướng dẫn chi tiết:
 
