@@ -5,9 +5,9 @@ nano /etc/ssh/sshd_config
 Edit PermitRootLogin yes & PasswordAuthentication yes (Lưu ctr+x y)
 systemctl restart ssh
 
-#Để cài đặt Node.js phiên bản 18.18.0 trên Ubuntu 24.04, bạn có thể sử dụng Node Version Manager (NVM), một công cụ hữu ích cho phép quản lý nhiều phiên bản Node.js trên cùng một hệ thống. Dưới đây là hướng dẫn chi tiết:
+# Để cài đặt Node.js phiên bản 18.18.0 trên Ubuntu 24.04, bạn có thể sử dụng Node Version Manager (NVM), một công cụ hữu ích cho phép quản lý nhiều phiên bản Node.js trên cùng một hệ thống. Dưới đây là hướng dẫn chi tiết:
 
-##Bước 1: Cài đặt NVM
+## Bước 1: Cài đặt NVM
 Mở terminal và chạy lệnh sau để tải và cài đặt NVM:
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
